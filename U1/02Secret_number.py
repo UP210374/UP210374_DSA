@@ -1,6 +1,8 @@
 import random
-secret_number= random.randrange(100)
-print('The secret number is between 1-100')
+secret_number= random.randrange(1,1000)
+
+print('Welcome to the guess the guesser game', '\n')
+print('The secret number is between 1-1000')
 num = int(input('Guess the secret number: '))
 numero_intentos=0
 
